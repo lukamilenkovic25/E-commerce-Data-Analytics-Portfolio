@@ -1,11 +1,8 @@
 # E-commerce-Data-Analytics-Portfolio
-Cleaned and standardized a raw e‑commerce dataset containing inconsistent formats, missing values, and messy categorical data. Prepared analysis‑ready fields for revenue, orders, regions, products, and order statuses. Built pivot‑driven KPIs and an Excel dashboard.
-
----
 
 ## Project Overview
-This project showcases an end‑to‑end data analytics workflow using Microsoft Excel, starting from raw, unstructured e‑commerce data and ending with a clean, analysis‑ready dataset and an executive‑level KPI dashboard.
-The primary goal of the project is to demonstrate practical data cleaning, transformation, and business analysis skills commonly required in real‑world analytics and freelance environments.
+This project simulates a **real-world E-commerce dataset** intentionally created in a *raw, dirty, and inconsistent state* in order to practice **data cleaning, transformation, and exploratory analysis using Microsoft Excel**.
+The primary goal of the project was to demonstrate how messy business data can be transformed into a **clean, structured dataset** suitable for analysis and decision-making.
 
 ---
 
