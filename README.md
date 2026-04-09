@@ -12,45 +12,61 @@ My work emphasizes clean data preparation, optimized data modeling, KPI developm
 
 ---
 
-## What This Portfolio Demonstrates
-This project demonstrates my ability to:
-- Identify and resolve data quality issues
-- Clean and standardize inconsistent datasets
-- Apply structured, reproducible transformation logic
-- Preserve raw data for auditability
-- Build meaningful KPIs aligned with business questions
-- Present insights through a clear and concise dashboard
+## Dataset Description
+The dataset represents E-commerce transactional data containing:
+- Orders and order dates
+- Customer information
+- Sales channels
+- Product categories
+- Revenue and currency values
+- Order status
+- Delivery performance metrics
+
+The raw data includes typical real-world data quality issues such as:
+- inconsistent naming conventions
+- missing and unknown values
+- mixed date formats
+- numeric values stored as text
+- inconsistencies across regions, products, and order statuses
+  
+---
+
+## Tools and Techniques Used
+**Microsoft Excel**
+Key skills demonstrated:
+- Data cleaning and normalization
+- Data standardization using mapping tables
+- Column-by-column transformation (raw vs cleaned columns)
+- Handling missing and inconsistent values
+- Text-to-number conversion
+- Date format standardization
+- Pivot Tables for analysis
+- KPI calculation
+- Dashboard creation
 
 ---
 
-## Featured Projects
-In this project, I worked with a deliberately messy e‑commerce dataset containing inconsistent formats, missing values, and mixed data types.
-After cleaning and transforming the data, I built pivot‑based KPIs and a dashboard focused on sales performance and operational efficiency.
+## Data Cleaning Approach
 
-Key outputs include:
-- Cleaned and normalized analytical dataset
-- Pivot‑driven KPIs
-- Executive‑style Excel dashboard
-
----
-
-## Project Structure
-The repository is organized as follows:
-- Raw Data – Original, unmodified dataset
-- Mappings – Lookup tables used for data normalization
-- Clean Fields – Transformed, analysis‑ready columns
-- Pivot Tables – Aggregated metrics used for KPIs
-- Dashboard – Final KPI dashboard for reporting
+For full transparency, **each raw column has a corresponding cleaned column**, allowing direct comparison between original and standardized values.
+Examples of data transformations:
+- `order_id` → standardized order format
+- `region` → unified region values (USA, Europe, Asia)
+- `product` → standardized product categories
+- `quantity` → text values (“two”, “five”) converted to numbers
+- `revenue` → numeric extraction from mixed currency strings
+- `order_status` → unified statuses (Delivered, Pending, Returned)
+- 'delivery_days → converted into consistent numeric values
+A dedicated **Mappings sheet** was used to ensure scalable and maintainable transformations instead of hard-coded fixes.
 
 ---
 
-## Data Models
-The analytical model follows a simple but effective structure:
-- Raw fields are preserved for reference
-- Cleaned fields (*_clean) are created for analysis
-- All KPIs and dashboards rely exclusively on clean fields
-- No raw data is directly used in calculations
-This separation guarantees reliable aggregation and consistent reporting.
+## KPI Dashboard
+**Key Metrics**:
+- Total Revenue
+- Total Orders
+- Return Rate %
+The dashboard provides a quick overview for stakeholders and highlights potential operational issues.
 
 ---
 
