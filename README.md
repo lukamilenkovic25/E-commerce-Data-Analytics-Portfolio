@@ -1,4 +1,4 @@
-# E-commerce-Data-Analytics-Portfolio
+# E-commerce Data Cleaning & Analytics (Excel & PowerBI)
 
 ## Project Overview
 This project simulates a real-world E-commerce dataset intentionally created in a raw, dirty, and inconsistent state in order to practice data cleaning, transformation, and exploratory analysis using Microsoft Excel.
